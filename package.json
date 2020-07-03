@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node proxy.js",
-    "start": "node proxy.js"
+    "start": "node proxy.js",
+    "usev19": "npm install -S mockttp@^0.19.2 && npm test",
+    "uselatest": "npm install -S mockttp@latest && npm test"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +16,7 @@
     "express": "^4.17.1",
     "express-favicon-short-circuit": "^1.2.0",
     "express-status-monitor": "^1.3.3",
-    "mockttp": "latest",
+    "mockttp": "^0.19.3",
     "request": "^2.88.2",
     "socket.io": "^2.3.0",
     "superagent": "^5.3.1"
