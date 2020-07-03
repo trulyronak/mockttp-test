@@ -1,0 +1,22 @@
+{
+  "name": "mockttp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node proxy.js",
+    "start": "node proxy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-favicon-short-circuit": "^1.2.0",
+    "express-status-monitor": "^1.3.3",
+    "mockttp": "latest",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0",
+    "superagent": "^5.3.1"
+  }
+}
